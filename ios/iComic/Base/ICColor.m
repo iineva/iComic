@@ -49,7 +49,7 @@
  */
 + (instancetype)ic_tintColor;
 {
-    return [self ic_colorWithKey:@"007AFF"];
+    return [self ic_colorWithKey:@"3B54FE"];
 }
 
 /**

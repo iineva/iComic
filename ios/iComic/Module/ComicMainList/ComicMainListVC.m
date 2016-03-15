@@ -20,6 +20,7 @@
     __strong NSArray * _categoryTitleItems;
 }
 
+@property (nonatomic, strong) UISegmentedControl * segmented;
 @property (nonatomic, assign) IBOutlet UITableView * leftTableView;
 @property (nonatomic, assign) IBOutlet UITableView * rightTableView;
 
@@ -134,7 +135,7 @@
     ICSubCategoryItem * subItem = self.currentCategoryItem.currentSelectedSubCategoryItem;
     [self.rightTableView.footer endRefreshing];
     if (subItem.page > subItem.totalpage) {
-        [self.rightTableView.footer noticeNoMoreData];
+        [self.rightTableView.footer endRefreshingWithNoMoreData];
     }
 }
 
@@ -200,9 +201,14 @@
     [self.rightTableView deselectRowAtIndexPath:self.currentSelectIndexPath animated:YES];
     
     /// 导航栏设置
-    UISegmentedControl * segmented = [[UISegmentedControl alloc] initWithItems:self.categoryTitleItems];
-    segmented.selectedSegmentIndex = self.categoryItemsIndex;
-    segmented.tintColor = [ICColor ic_tintColor];
+    
+    UISegmentedControl * segmented = self.segmented;
+    if (segmented == nil) {
+        segmented = [[UISegmentedControl alloc] initWithItems:self.categoryTitleItems];
+        segmented.selectedSegmentIndex = self.categoryItemsIndex;
+        segmented.tintColor = [UIColor whiteColor];
+        self.segmented = segmented;
+    }
     @weakify(self);
     [[segmented rac_signalForControlEvents:UIControlEventValueChanged] subscribeNext:^(UISegmentedControl * x) {
         @strongify(self);

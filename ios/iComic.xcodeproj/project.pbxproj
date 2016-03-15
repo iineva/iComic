@@ -8,32 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		1120135B34DDE797DEE2C885 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08CCC9BBE46DDE27FAAB9F8 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		B0685D7D1BA5C2E800B4EDC6 /* ICStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0685D7C1BA5C2E800B4EDC6 /* ICStarView.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1A51BA305060097790F /* ICBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1811BA305060097790F /* ICBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1A61BA305060097790F /* ICNetworkDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1831BA305060097790F /* ICNetworkDataCenter.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1A71BA305060097790F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1861BA305060097790F /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1A91BA305060097790F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B076E1881BA305060097790F /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
-		B076E1AA1BA305060097790F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1891BA305060097790F /* main.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1B41BA305060097790F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B076E1A11BA305060097790F /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		B076E1ED1BA306210097790F /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B076E1D91BA306210097790F /* Detail.storyboard */; settings = {ASSET_TAGS = (); }; };
-		B076E1EE1BA306210097790F /* DetailAnthologyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1DC1BA306210097790F /* DetailAnthologyCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1EF1BA306210097790F /* DetailIntroductionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1DE1BA306210097790F /* DetailIntroductionCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1F01BA306210097790F /* ComicDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1E01BA306210097790F /* ComicDetailVC.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1F11BA306210097790F /* ComicMainList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B076E1E31BA306210097790F /* ComicMainList.storyboard */; settings = {ASSET_TAGS = (); }; };
-		B076E1F21BA306210097790F /* ICCategoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1E61BA306210097790F /* ICCategoryItem.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1F31BA306210097790F /* ICComicListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1E81BA306210097790F /* ICComicListItem.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1F41BA306210097790F /* ICSubCategoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1EA1BA306210097790F /* ICSubCategoryItem.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1F51BA306210097790F /* ComicMainListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1EC1BA306210097790F /* ComicMainListVC.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1F81BA33AA10097790F /* ComicMainListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1F71BA33AA10097790F /* ComicMainListCell.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1FC1BA401700097790F /* ComicReaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1FB1BA401700097790F /* ComicReaderVC.m */; settings = {ASSET_TAGS = (); }; };
-		B076E1FF1BA403D20097790F /* ICComicDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1FE1BA403D20097790F /* ICComicDetail.m */; settings = {ASSET_TAGS = (); }; };
-		B076E2021BA41DCF0097790F /* ICComicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E2011BA41DCF0097790F /* ICComicImage.m */; settings = {ASSET_TAGS = (); }; };
-		B076E2051BA41E960097790F /* ICComicEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E2041BA41E960097790F /* ICComicEpisode.m */; settings = {ASSET_TAGS = (); }; };
-		B0CAAB801BA4381000ACDFFF /* ICBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CAAB7F1BA4381000ACDFFF /* ICBaseModel.m */; settings = {ASSET_TAGS = (); }; };
-		B0CAAB831BA4408D00ACDFFF /* ComicReaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CAAB821BA4408D00ACDFFF /* ComicReaderTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		B0F304A51BA58BA600C12088 /* ICView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F304A41BA58BA600C12088 /* ICView.m */; settings = {ASSET_TAGS = (); }; };
-		B0F304A81BA58BD800C12088 /* ICHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F304A71BA58BD800C12088 /* ICHeartView.m */; settings = {ASSET_TAGS = (); }; };
-		B0F304AB1BA58CA300C12088 /* ICColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F304AA1BA58CA300C12088 /* ICColor.m */; settings = {ASSET_TAGS = (); }; };
+		B0685D7D1BA5C2E800B4EDC6 /* ICStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0685D7C1BA5C2E800B4EDC6 /* ICStarView.m */; };
+		B076E1A51BA305060097790F /* ICBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1811BA305060097790F /* ICBaseViewController.m */; };
+		B076E1A61BA305060097790F /* ICNetworkDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1831BA305060097790F /* ICNetworkDataCenter.m */; };
+		B076E1A71BA305060097790F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1861BA305060097790F /* AppDelegate.m */; };
+		B076E1A91BA305060097790F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B076E1881BA305060097790F /* LaunchScreen.xib */; };
+		B076E1AA1BA305060097790F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1891BA305060097790F /* main.m */; };
+		B076E1B41BA305060097790F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B076E1A11BA305060097790F /* Assets.xcassets */; };
+		B076E1ED1BA306210097790F /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B076E1D91BA306210097790F /* Detail.storyboard */; };
+		B076E1EE1BA306210097790F /* DetailAnthologyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1DC1BA306210097790F /* DetailAnthologyCollectionViewCell.m */; };
+		B076E1EF1BA306210097790F /* DetailIntroductionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1DE1BA306210097790F /* DetailIntroductionCollectionViewCell.m */; };
+		B076E1F01BA306210097790F /* ComicDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1E01BA306210097790F /* ComicDetailVC.m */; };
+		B076E1F11BA306210097790F /* ComicMainList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B076E1E31BA306210097790F /* ComicMainList.storyboard */; };
+		B076E1F21BA306210097790F /* ICCategoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1E61BA306210097790F /* ICCategoryItem.m */; };
+		B076E1F31BA306210097790F /* ICComicListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1E81BA306210097790F /* ICComicListItem.m */; };
+		B076E1F41BA306210097790F /* ICSubCategoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1EA1BA306210097790F /* ICSubCategoryItem.m */; };
+		B076E1F51BA306210097790F /* ComicMainListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1EC1BA306210097790F /* ComicMainListVC.m */; };
+		B076E1F81BA33AA10097790F /* ComicMainListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1F71BA33AA10097790F /* ComicMainListCell.m */; };
+		B076E1FC1BA401700097790F /* ComicReaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1FB1BA401700097790F /* ComicReaderVC.m */; };
+		B076E1FF1BA403D20097790F /* ICComicDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E1FE1BA403D20097790F /* ICComicDetail.m */; };
+		B076E2021BA41DCF0097790F /* ICComicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E2011BA41DCF0097790F /* ICComicImage.m */; };
+		B076E2051BA41E960097790F /* ICComicEpisode.m in Sources */ = {isa = PBXBuildFile; fileRef = B076E2041BA41E960097790F /* ICComicEpisode.m */; };
+		B083ED9D1C97E84E002213B3 /* RootNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B083ED9C1C97E84E002213B3 /* RootNavViewController.m */; };
+		B0CAAB801BA4381000ACDFFF /* ICBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CAAB7F1BA4381000ACDFFF /* ICBaseModel.m */; };
+		B0CAAB831BA4408D00ACDFFF /* ComicReaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CAAB821BA4408D00ACDFFF /* ComicReaderTableViewCell.m */; };
+		B0F304A51BA58BA600C12088 /* ICView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F304A41BA58BA600C12088 /* ICView.m */; };
+		B0F304A81BA58BD800C12088 /* ICHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F304A71BA58BD800C12088 /* ICHeartView.m */; };
+		B0F304AB1BA58CA300C12088 /* ICColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F304AA1BA58CA300C12088 /* ICColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,8 @@
 		B076E2011BA41DCF0097790F /* ICComicImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICComicImage.m; sourceTree = "<group>"; };
 		B076E2031BA41E960097790F /* ICComicEpisode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICComicEpisode.h; sourceTree = "<group>"; };
 		B076E2041BA41E960097790F /* ICComicEpisode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICComicEpisode.m; sourceTree = "<group>"; };
+		B083ED9B1C97E84E002213B3 /* RootNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavViewController.h; sourceTree = "<group>"; };
+		B083ED9C1C97E84E002213B3 /* RootNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavViewController.m; sourceTree = "<group>"; };
 		B08CCC9BBE46DDE27FAAB9F8 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A220401BA1EFEA004F5DC5 /* iComic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iComic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CAAB7E1BA4381000ACDFFF /* ICBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICBaseModel.h; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				B0685D7C1BA5C2E800B4EDC6 /* ICStarView.m */,
 				B0F304A91BA58CA300C12088 /* ICColor.h */,
 				B0F304AA1BA58CA300C12088 /* ICColor.m */,
+				B083ED9B1C97E84E002213B3 /* RootNavViewController.h */,
+				B083ED9C1C97E84E002213B3 /* RootNavViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 				B076E1EE1BA306210097790F /* DetailAnthologyCollectionViewCell.m in Sources */,
 				B076E1AA1BA305060097790F /* main.m in Sources */,
 				B0CAAB801BA4381000ACDFFF /* ICBaseModel.m in Sources */,
+				B083ED9D1C97E84E002213B3 /* RootNavViewController.m in Sources */,
 				B0F304A51BA58BA600C12088 /* ICView.m in Sources */,
 				B0CAAB831BA4408D00ACDFFF /* ComicReaderTableViewCell.m in Sources */,
 				B076E2051BA41E960097790F /* ICComicEpisode.m in Sources */,
@@ -522,6 +528,7 @@
 			baseConfigurationReference = 897B264D86013F599A841572 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iComic/Main/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -537,6 +544,7 @@
 			baseConfigurationReference = A677B546B3A00851DAF752BB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iComic/Main/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
